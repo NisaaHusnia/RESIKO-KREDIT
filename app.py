@@ -365,14 +365,14 @@ CHART CONTAINER
 # =====================================================
 # LOAD MODEL
 # =====================================================
-kmeans = joblib.load('model/kmeans_model.pkl')
-rf_model = joblib.load('model/random_forest_model.pkl')
-scaler = joblib.load('model/scaler.pkl')
+kmeans = joblib.load('kmeans_model.pkl')
+rf_model = joblib.load('random_forest_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 # =====================================================
 # LOAD DATA
 # =====================================================
-df = pd.read_excel('data/data_hasil_kmeans.xlsx')
+df = pd.read_excel('data_hasil_kmeans.xlsx')
 
 # =====================================================
 # SIDEBAR MENU

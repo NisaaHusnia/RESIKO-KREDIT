@@ -25,9 +25,9 @@ def get_base64(bin_file):
     return base64.b64encode(data).decode()
 
 bg_img = get_base64("bg3.png")
-dashboard_img = get_base64("assets/dashboard.png")
-icon_prediksi = get_base64("assets/chart.png")
-database_icon = get_base64("assets/database.png")
+dashboard_img = get_base64("dashboard.png")
+icon_prediksi = get_base64("chart.png")
+database_icon = get_base64("database.png")
 
 # =====================================================
 # CUSTOM CSS
